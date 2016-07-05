@@ -20,4 +20,11 @@ public class MainActivity extends AppCompatActivity {
 
         startActivity(intent);
     }
+    public void abrirJuego(View v) {
+
+        Intent intent = new Intent(MainActivity.this, juego.class);
+
+
+        startActivity(intent);
+    }
 }
